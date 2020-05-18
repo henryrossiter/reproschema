@@ -1,7 +1,7 @@
 {
   "@context": [
     "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
-    "https://raw.githubusercontent.com/ReproNim/reproschema/master/activities/MindLoggerDemo/MindLoggerDemo_context"
+    "https://raw.githubusercontent.com/henryrossiter/reproschema/master/activities/MindLoggerDemo/MindLoggerDemo_context"
   ],
   "@type": "reproschema:Activity",
   "@id": "MindLoggerDemo_schema",
@@ -29,6 +29,10 @@
     {
       "variableName": "slider",
       "isAbout": "slider"
+    },
+    {
+      "variableName": "continuous-slider",
+      "isAbout": "continuous-slider"
     },
     {
       "variableName": "text",
@@ -109,6 +113,7 @@
       "radio",
       "radio-multi",
       "slider",
+      "continuous-slider",
       "text",
       "date",
       "time-range",
@@ -133,6 +138,7 @@
       "radio": true,
       "radio-multi": true,
       "slider": true,
+      "continuous-slider": true,
       "text": true,
       "date": true,
       "time-range": true,

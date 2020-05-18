@@ -1,7 +1,7 @@
 {
   "@context": {
     "@version": 1.1,
-    "MindLoggerDemo": "https://raw.githubusercontent.com/ReproNim/reproschema/master/activities/MindLoggerDemo/",
+    "MindLoggerDemo": "https://raw.githubusercontent.com/henryrossiter/reproschema/master/activities/MindLoggerDemo/",
     "markdown-message": {
       "@id": "MindLoggerDemo:items/markdown-message",
       "@type": "@id"
@@ -16,6 +16,10 @@
     },
     "slider": {
       "@id": "MindLoggerDemo:items/slider",
+      "@type": "@id"
+    },
+    "continuous-slider": {
+      "@id": "MindLoggerDemo:items/continuous-slider",
       "@type": "@id"
     },
     "text": {
